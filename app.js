@@ -10,7 +10,7 @@ app.post("/bhfl",(req,resp)=>
 for(const key in req.json["data"])
   {
     if(key.isalpha())
-      alphabets.append(key)
+      alphabets.append(key);
     else
       numbers.append(key);
   }
